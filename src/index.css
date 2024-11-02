@@ -1,0 +1,12 @@
+:root {
+  --background-color: black;
+  --text-color: white;
+  --sidebar-width: 20%;
+  --trending-width: 30%;
+  --profile-width: 50%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
