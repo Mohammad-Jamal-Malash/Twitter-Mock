@@ -4,6 +4,7 @@
   --sidebar-width: 20%;
   --trending-width: 30%;
   --profile-width: 50%;
+  --hover-color: #181717;
 }
 * {
   box-sizing: border-box;
