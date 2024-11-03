@@ -1,4 +1,4 @@
-.container{
+.container {
   background-color: var(--background-color);
   color: var(--text-color);
   display: flex;
@@ -9,15 +9,24 @@
   padding: 0;
 }
 
-.sidebar{
-  width: var(--sidebar-width);  
+.sidebar {
+  width: var(--sidebar-width);
 }
 
-.profile{
+.profile {
   width: var(--profile-width);
   border-left: 1px solid var(--text-color);
   border-right: 1px solid var(--text-color);
 }
-.trending{
+.trending {
   width: var(--trending-width);
+}
+
+.primary {
+  font-size: 16px;
+  font-weight: 600;
+}
+.secondary {
+  font-size: 14px;
+  color: #acacac;
 }

@@ -7,10 +7,10 @@ import PersonalProfile from "../custom/personalProfile/PersonalProfile";
 const SideBar = () => {
   return (
     <div className={sideBarStyle.sidebar}>
-      <div >
       <div>
-        <FaXTwitter className={sideBarStyle.logo} />
-      </div>
+        <div>
+          <FaXTwitter className={sideBarStyle.logo} />
+        </div>
         {iconConfig.map((item, index) => (
           <ListItem
             key={index}
