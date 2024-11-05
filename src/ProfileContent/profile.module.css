@@ -1,0 +1,36 @@
+.backBtn{
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.headrContainer{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--text-color);
+}
+.profileContentContainer{
+    overflow: auto;
+    height: 100vh;
+    scrollbar-width: none;
+}
+.footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+@media screen and (max-width: 900px) {
+    .profileContentContainer{
+        height: auto;
+    }
+    .footer{
+        display: none;
+    }
+    
+}
