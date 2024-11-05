@@ -1,0 +1,17 @@
+
+.container{
+    background-color: rgba(219, 219, 219, 0.2);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.showMore{
+    color: #00b3ff;
+    border: none;
+    background-color: transparent;
+    align-self: flex-start;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
