@@ -13,9 +13,10 @@ const style = {
   followBtn: {
     backgroundColor: "white",
     color: "black",
-    padding: "5px 10px",
+    padding: "7px 14px",
     borderRadius: "15px",
     border: "none",
     cursor: "pointer",
+    fontWeight: "bold",
   },
 };
