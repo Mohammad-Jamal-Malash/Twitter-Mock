@@ -30,3 +30,22 @@
   font-size: 14px;
   color: #acacac;
 }
+
+
+@media screen and (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    overflow: auto;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .profile {
+    width: 100%;
+    border: none;
+  }
+  .trending {
+    width: 100%;
+  }
+  
+}

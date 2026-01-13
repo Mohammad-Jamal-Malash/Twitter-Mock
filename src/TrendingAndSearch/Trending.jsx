@@ -2,19 +2,10 @@ import React from "react";
 import Search from "./search/search";
 import MightLike from "./mighLike/MightLike";
 import Treands from "./Trends/Trends";
-
+import style from "./trending.module.css";
 const Trending = () => {
   return (
-    <div
-      style={{
-        width: "80%",
-        overflow: "auto",
-        height: "100vh",
-        scrollbarColor: "transparent transparent",
-        
-
-      }}
-    >
+    <div className={style.trendingContainer}>
       <Search />
       <MightLike />
       <Treands />
