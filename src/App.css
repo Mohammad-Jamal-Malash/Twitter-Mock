@@ -1,0 +1,23 @@
+.container{
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  font-family: "Geologica", sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar{
+  width: var(--sidebar-width);  
+}
+
+.profile{
+  width: var(--profile-width);
+  border-left: 1px solid var(--text-color);
+  border-right: 1px solid var(--text-color);
+}
+.trending{
+  width: var(--trending-width);
+}
