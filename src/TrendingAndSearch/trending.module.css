@@ -1,0 +1,30 @@
+.trendingContainer{
+    width: "80%";
+    overflow:auto;
+    height: 100vh;
+    scrollbar-width: none;
+}
+.container{
+    background-color: rgba(219, 219, 219, 0.2);
+    border-radius: 15px;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.showMore{
+    color: #00b3ff;
+    border: none;
+    background-color: transparent;
+    align-self: flex-start;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .trendingContainer{
+        width: 100%;
+        height: auto;
+    }
+    
+}
